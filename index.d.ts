@@ -114,6 +114,7 @@ export declare interface CloudStorageOptions extends UploadOptions {
   acl?: string;
   sizes?: Sizes[];
   gzip?: boolean;
+  prefix?: string;
 }
 
 export declare type MulterOptions = SharpOptions & CloudStorageOptions;
